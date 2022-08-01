@@ -1,0 +1,242 @@
+body
+{
+    background-image: url("./back2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backface-visibility: visible;
+  background-color: black;
+  border-radius: 0;
+  background-size: cover;
+  overflow-x: hidden;
+  
+}
+.block
+{
+  display: block;
+}
+.moviecard
+{
+  width: 12em;
+}
+img{
+  border-radius: 10px;
+}
+.logo
+{
+  width: 50rem;
+  height: 18rem;
+}
+.mainContainer
+{
+  margin-top: 1rem;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 100%;
+  text-align: left;
+  align-content:left;
+  margin-left: 4rem;
+  
+  
+}
+.insideContainer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: left;
+  padding: 5px 0;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 5px solid transparent;
+}
+.Nav
+{
+  font-size: 2.2rem;
+}
+.Navmenu
+{
+  font-size: 1.5rem;
+}
+.navBar
+{
+  background: rgba(255,255,255,0.5);
+}
+.Container{
+  margin-top: 10rem;
+}
+.title
+{
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #696969;
+  background: rgba(255,255,255,0.5);
+  padding: 0;
+  margin: 0;
+}
+
+.formContainer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(255,255,255,0.5);
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 30rem;
+  height: 20rem;
+  border-radius: 10%;
+}
+.insideForm
+{
+  flex-grow: 0.5;
+}
+.formContainer::after
+{
+  content: "";
+  display: block;
+}
+.footerLogin {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10rem;
+  background: rgba(255,255,255,0.5);
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+input
+{
+  border-radius: 1rem;
+  align-content: center;
+  justify-content: center;
+}
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 40px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 15px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:9rem;
+  background: rgba(255,255,255,0.5);
+  color: white;
+  text-align: center;
+  padding: 0 25px;
+}
+.footerButton
+{
+  background-color: transparent;
+  width: 3rem;
+  border: none;
+}
+.footerImage
+{
+  width: 2rem;
+  height: auto;
+}
+.footerNotes
+{
+  font-size: 1rem;
+  color: black;
+}
+
+.registerContainer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(255,255,255,0.5);
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 30rem;
+  border-radius: 10%;
+  font-size: 1rem;
+  margin-bottom:10rem;
+  min-height: 100vh;
+}
+
+.registerContainer::after
+{
+  content: "";
+  display: block;
+}
+
+.moviecard:hover{
+  transform: translate3D(0,-2px,0) scale(1.08); /* move up slightly and zoom in */
+  box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+  transition: all .4s ease; /* zoom in */
+  cursor: pointer;
+}
+
+.video
+{
+  display: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+}
+iframe
+{
+  width:900px;
+   height:450px;
+}
+
+
